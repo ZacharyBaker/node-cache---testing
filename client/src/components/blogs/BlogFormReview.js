@@ -42,6 +42,7 @@ class BlogFormReview extends Component {
   }
 
   onSubmit(event) {
+
     event.preventDefault();
 
     const { submitBlog, history, formValues } = this.props;
